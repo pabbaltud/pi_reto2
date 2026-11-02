@@ -107,6 +107,7 @@ public class App {
         Scanner escaner = new Scanner(System.in);
         System.out.println("¿Cuantas peliculas quieres extraer? (Introduce solamente números): ");
         int cantidad = escaner.nextInt();
+        escaner.close();
         
         extraerCarteleraYGuardar(cantidad);
     }
